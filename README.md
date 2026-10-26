@@ -134,11 +134,6 @@ The original game stores text in several formats, and many labels live inside gr
 - The [Japanese *OG Gaiden* strategy wiki on atwiki](https://w.atwiki.jp/srwoggaidenkouryaku/pages/1.html) — Japanese-language reference.
 - The official English localizations of *Super Robot Wars OG1/OG2* — canon for names, terminology and attack names, always checked against the Japanese original.
 
-## Credits
-
-- Translation, romhacking, tools and testing: the project maintainers.
-- Names and attack terminology follow the official *Super Robot Wars OG* English localizations and fan community references.
-
 ## Project scope and rights
 
 This is an unofficial, non-commercial fan translation. It is not affiliated with or endorsed by Banpresto, Bandai Namco, or the original rights holders. No game disc image or console BIOS is provided; use only game data from a copy you are legally entitled to use. All trademarks and copyrighted material belong to their respective owners. The contents of this repository are licensed under the [GPL-3.0](LICENSE).
