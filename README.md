@@ -4,6 +4,12 @@
 ![Translation: Japanese to English](https://img.shields.io/badge/translation-Japanese%20%E2%86%92%20English-blue)
 ![Status: RC01](https://img.shields.io/badge/status-RC01%20(release%20candidate)-yellow)
 ![Font: VWF](https://img.shields.io/badge/font-variable--width%20(VWF)-purple)
+[![Latest release](https://img.shields.io/github/v/release/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?include_prereleases&label=release&color=yellow)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
+[![xdelta downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/RC01/SRWOGG_EN_RC01.xdelta?label=xdelta%20downloads&color=brightgreen)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC01)
+[![Total downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/total?label=total%20downloads)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
+[![Open issues](https://img.shields.io/github/issues/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?label=issues)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues)
+[![License: GPL-3.0](https://img.shields.io/github/license/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/commits/main)
 
 A complete English fan translation of **Super Robot Wars Original Generation: Gaiden** (*Super Robot Taisen OG Gaiden*, SLPS-25836) for the PlayStation 2.
 
@@ -111,6 +117,23 @@ Helpful details: what screen you were on, a screenshot, the **MD5 of your patche
 ## How does it work?
 
 The original game stores text in several formats, and many labels live inside graphics. The project extracts everything into editable files, translates it in batches with a shared glossary, and fits it with a **variable-width font (VWF)** so English fits where Japanese characters had fixed cells. Tools validate every string against its box in pixels, rebuild the disc, and run automated emulator smoke tests. Details: [project status (Spanish)](docs/PROJECT_STATUS_ES.md).
+
+## Tools and sources
+
+**Tools used**
+
+- [**Ghidra**](https://ghidra-sre.org/) with the Emotion Engine (MIPS R5900) processor plugin — static analysis of the game executable and overlays.
+- [**PCSX2**](https://pcsx2.net/) — emulation, debugger, watchpoints and PINE IPC for automated smoke tests.
+- [**ImHex**](https://imhex.werwolv.net/) — hex editing and format reverse-engineering.
+- [**xdelta3**](https://github.com/jmacd/xdelta) — patch generation and verification.
+- **Python 3** (with Pillow, segno, OpenCV) — extraction, reinsertion, font and texture tooling, pixel-level text-fit validation.
+- [**Open PS2 Loader (OPL)**](https://github.com/ps2homebrew/Open-PS2-Loader) — testing on console-style loading.
+
+**Sources and references**
+
+- [**Akurasu Wiki**](https://akurasu.net/wiki/Super_Robot_Wars) (CC BY 3.0) — *OG Gaiden* and *OGs* pilot, mech, weapon, parts and skill databases, used to build the project glossary.
+- The [Japanese *OG Gaiden* strategy wiki on atwiki](https://w.atwiki.jp/srwoggaidenkouryaku/pages/1.html) — Japanese-language reference.
+- The official English localizations of *Super Robot Wars OG1/OG2* — canon for names, terminology and attack names, always checked against the Japanese original.
 
 ## Credits
 
