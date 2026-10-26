@@ -11,6 +11,16 @@ The goal is to make the game easier to play in English while preserving its stor
 
 > **Project status:** active development. English draft text exists across much of the game, but review and in-game testing are still ongoing. There is no finished public patch release yet.
 
+### We need your support! 💫
+
+While every line is translated and the game is fully playable from the title screen to the battle animations, we are looking for players to test this build on emulators and physical consoles. 💥
+
+Grab your original Japanese ISO, check the README.md for the quick xdelta patching instructions, and help us polish this masterpiece! Please report any visual bugs🐛, or text issues on our GitHub.
+
+**AND CONSIDER SUPPORTING FURTHER DEVELOPMENT!** 
+
+<a href="https://www.buymeacoffee.com/Srwa_en" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Screenshots
 
 The image slots below are reserved for captures from the translated build. They can be replaced with real screenshots as visual testing progresses.
@@ -72,3 +82,7 @@ The source code, build tools, translation data, and detailed working notes have 
 This is an unofficial, non-commercial fan translation project. It is not affiliated with or endorsed by Banpresto, Bandai Namco, or the original rights holders.
 
 The repository is a private development workspace. It does not announce a public release, and no original game disc image or console BIOS is provided. Use only game data obtained from a copy you are legally entitled to use. All trademarks and copyrighted material belong to their respective owners.
+
+
+
+<a href="https://www.buymeacoffee.com/Srwa_en" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
