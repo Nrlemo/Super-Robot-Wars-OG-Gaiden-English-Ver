@@ -2,93 +2,123 @@
 
 ![Platform: PlayStation 2](https://img.shields.io/badge/platform-PlayStation%202-555555)
 ![Translation: Japanese to English](https://img.shields.io/badge/translation-Japanese%20%E2%86%92%20English-blue)
-![Status: In development](https://img.shields.io/badge/status-in%20development-orange)
+![Status: RC01](https://img.shields.io/badge/status-RC01%20(release%20candidate)-yellow)
 ![Font: VWF](https://img.shields.io/badge/font-variable--width%20(VWF)-purple)
 
-A work-in-progress English fan translation of **Super Robot Wars Original Generation: Gaiden** for the PlayStation 2.
+A complete English fan translation of **Super Robot Wars Original Generation: Gaiden** (*Super Robot Taisen OG Gaiden*, SLPS-25836) for the PlayStation 2.
 
 <p align="center">
   <img src="screenshots/cover.png" width="720" alt="cover" title="cover">
 
 </p>
 
+The goal is to make the game fully playable in English while preserving its story, character voices, terminology, menus, and original presentation. Names and attacks follow the official English localizations of *SRW OG1/OG2* wherever they exist, and everything is checked against the Japanese original.
 
-The goal is to make the game easier to play in English while preserving its story, character voices, terminology, menus, and original presentation. This repository contains the translation work and the tools used to modify and test the game.
-
-> **Project status:** active development. English draft text exists across much of the game, but review and in-game testing are still ongoing. There is no finished public patch release yet.
+**Download:** [RC01 pre-release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC01) · [All releases](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
 
 ### We need your support! 💫
 
-While every line is translated and the game is fully playable from the title screen to the battle animations, we are looking for players to test this build on emulators and physical consoles. 💥
+Every line of the game is translated and the game is playable from the title screen to the battle animations. We are looking for players to test this build on emulators and, above all, on **real PS2 hardware**. 💥
 
-Grab your original Japanese ISO, check the README.md for the quick xdelta patching instructions, and help us polish this masterpiece! Please report any visual bugs🐛, or text issues on our GitHub.
+Grab your original Japanese ISO, follow the [installation steps](#installation) below, and help us polish this game! Please report any visual bugs 🐛 or text issues in the [Issues tab](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues).
 
-**AND CONSIDER SUPPORTING FURTHER DEVELOPMENT!** 
+**AND CONSIDER SUPPORTING FURTHER DEVELOPMENT!**
 
 <a href="https://www.buymeacoffee.com/Srwa_en" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+## Project status: RC01 (release candidate)
+
+- ✅ **Everything is translated:** story script, battle quotes, database and Library, menus and system text, tutorial/help/Q&A, Shuffle Battler (cards, effects and messages), terrain and music labels, and the text baked into menu graphics and banners.
+- ✅ **Validated on the PCSX2 emulator and on Open PS2 Loader (OPL).**
+- ⏳ **Real PS2 hardware has not been tested yet.** Reports from physical consoles are very welcome.
+- 🔎 **What RC01 is for:** checking that **no untranslated Japanese remains** anywhere in the game (menus, graphics, rarely-seen screens).
+- 📝 **Still pending:** a complete proofreading pass over the script. It has only been partially validated, so expect the occasional awkward line or inconsistency.
+
 ## Screenshots
 
-The image slots below are reserved for captures from the translated build. They can be replaced with real screenshots as visual testing progresses.
-
-| Title screen | Story dialogue |
+| | |
 |---|---|
-| _Screenshot placeholder — add `screenshots/title-screen.png`_ | _Screenshot placeholder — add `screenshots/story-dialogue.png`_ |
-| **Menu and Library** | **Battle scene** |
-| _Screenshot placeholder — add `screenshots/menu-library.png`_ | _Screenshot placeholder — add `screenshots/battle-scene.png`_ |
+| <img src="screenshots/gallery/11-special-menu.png" alt="Special Menu"><br><sub>Special Menu</sub> | <img src="screenshots/gallery/31-map-dialogue.png" alt="Story dialogue"><br><sub>Story dialogue</sub> |
+| <img src="screenshots/gallery/30-glossary-term-popup.png" alt="Glossary term popup"><br><sub>Glossary term popup</sub> | <img src="screenshots/gallery/39-cutscene-excellen.png" alt="Cutscene"><br><sub>Cutscene</sub> |
+| <img src="screenshots/gallery/41-battle-excellen-2.png" alt="Battle quotes"><br><sub>Battle quotes</sub> | <img src="screenshots/gallery/12-library-valsione.png" alt="Library"><br><sub>Library</sub> |
+| <img src="screenshots/gallery/23-pilot-stats.png" alt="Pilot Stats"><br><sub>Pilot Stats</sub> | <img src="screenshots/gallery/19-free-battle-select-weapon.png" alt="Free Battle – weapon select"><br><sub>Free Battle – weapon select</sub> |
+| <img src="screenshots/gallery/05-shuffle-card-bullseye.png" alt="Shuffle Battler card"><br><sub>Shuffle Battler card</sub> | <img src="screenshots/gallery/28-stage-banner.png" alt="Stage banner"><br><sub>Stage banner</sub> |
+| <img src="screenshots/gallery/27-intermission.png" alt="Intermission"><br><sub>Intermission</sub> | <img src="screenshots/gallery/32-objectives.png" alt="Objectives"><br><sub>Objectives</sub> |
 
-## What is being translated?
+**[📁 More screenshots (41) →](screenshots/gallery/)**
 
-| Area | Current state |
-|---|---|
-| Story dialogue | English draft is available for most tracked lines; review and playtesting remain |
-| Battle quotes | English drafts are prepared for the tracked phrases; style and in-game checks remain |
-| Database and Library | Unit, weapon, pilot, ability, glossary, and card descriptions have English drafts; some entries still need review or follow-up |
-| Menus and system text | Many executable and overlay strings have been translated; layout checks and remaining labels are in progress |
-| Help, tutorials, terrain, and music labels | Several groups have English text; the remaining miscellaneous strings are being handled separately |
-| Graphics and UI textures | Some menu labels and game graphics have been edited; not every change has been visually verified |
+## Installation
 
-The latest tracked count, recorded on **October 19, 2026**, was approximately **76,300 of 98,000 text records with English draft text (about 78%)**. This is a measure of draft coverage, **not** of finished, reviewed, or fully playable content.
+You need **your own copy** of the Japanese game. No game image, BIOS, or game data is distributed here — only a patch file.
+
+**1. Get the right base ISO**
+
+*Super Robot Taisen OG Gaiden (Japan, Korea)*, SLPS-25836. Check that its MD5 is:
+
+```
+cb7dc4485f46f220c46095c966a3aad0
+```
+
+**2. Download the patch**
+
+Download `SRWOGG_EN_RC01.xdelta` from the [RC01 release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC01).
+
+**3. Apply the patch (xdelta)**
+
+- **Windows / any browser:** use [Delta Patcher](https://www.romhacking.net/utilities/704/), [xdelta UI](https://www.romhacking.net/utilities/598/) or [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). Choose the original ISO as the source file, `SRWOGG_EN_RC01.xdelta` as the patch, and save to a **new** file name.
+- **Linux / macOS (command line):**
+
+```sh
+xdelta3 -d -s "Super Robot Taisen OG Gaiden (Japan, Korea).iso" SRWOGG_EN_RC01.xdelta SRWOGG_EN_RC01.iso
+```
+
+Your original ISO is never modified.
+
+**4. Verify the result**
+
+The patched ISO must have this MD5 (if not, the base ISO is not the expected dump):
+
+```
+7e834ed083969bc379b43cc2a57714d8
+```
+
+**5. Play**
+
+- **PCSX2:** boot `SRWOGG_EN_RC01.iso` directly.
+- **Open PS2 Loader (OPL):** copy the ISO to the `DVD` folder of your drive/USB/SMB share (rename it as OPL expects, e.g. `SLPS_258.36.Super Robot Taisen OG Gaiden.iso`).
+- **Real disc:** burn the ISO as a PS2 DVD-ROM image.
+
+> 💾 **Start a New Game.** Some text (objectives, save titles) is stored inside save data, so saves made with the Japanese game or earlier builds can show Japanese or garbled text.
+
+## Known issues
+
+- **#84 — Unit Stats:** the *HP* and *EN* labels appear twice (a text label plus the game's own sprite). Cosmetic; the Japanese game also draws both.
+
+Found something else? Please [open an issue](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues) with a screenshot.
+
+## Reporting bugs and testing
+
+Helpful details: what screen you were on, a screenshot, the **MD5 of your patched ISO**, and how you ran it (PCSX2 version / OPL / real console). Anything still in Japanese, cut-off text, text overlapping a value, or broken glyphs is worth reporting.
+
+## FAQ
+
+**The patched ISO has a different MD5.** The base ISO is probably a different dump (other region, headered image, or modified). Use the Japan/Korea release, SLPS-25836.
+
+**Can I use the patch on a CD/other region?** No — the patch is made for that exact ISO.
+
+**Is the translation final?** No. This is RC01: complete, but the script still needs a full proofreading pass.
 
 ## How does it work?
 
-The original game stores text in several different formats. Some content is ordinary text, while other labels are stored inside graphics or packed data files. The project uses small tools to handle those formats safely.
+The original game stores text in several formats, and many labels live inside graphics. The project extracts everything into editable files, translates it in batches with a shared glossary, and fits it with a **variable-width font (VWF)** so English fits where Japanese characters had fixed cells. Tools validate every string against its box in pixels, rebuild the disc, and run automated emulator smoke tests. Details: [project status (Spanish)](docs/PROJECT_STATUS_ES.md).
 
-1. **Extract:** game text is read into editable files so it can be translated without manually changing the disc image.
-2. **Translate and review:** text is worked on in batches, with story context, character notes, and a shared glossary to keep names and terms consistent.
-3. **Fit the text:** the game was designed for Japanese characters, which usually take a fixed amount of space. The project adds a **variable-width font (VWF)** so English letters can use the space they actually need.
-4. **Reinsert and rebuild:** the tools put the English text back into the game data and rebuild a test disc image. Checks help catch malformed text, broken data, and strings that would be cut off.
-5. **Test in the game:** experimental builds are checked in PCSX2, with automated smoke tests and memory checks supporting manual visual review.
+## Credits
 
-In simple terms, the project is not just replacing Japanese words with English ones. It also adapts the game's text layout and data so the English can fit and the game can continue to run correctly.
-
-## Technical highlights
-
-- Custom extractors and rebuilders for the story script, battle lines, menus, databases, and other game data.
-- A patched rendering routine and an English font with variable character widths.
-- Re-implemented compression support for packed game data where needed.
-- Text validation and byte-for-byte round-trip checks for supported formats.
-- Automated build and emulator-testing tools, including a patch-generation workflow.
-
-The main build entry point is the root-level build script. The more detailed environment and implementation notes are linked below.
-
-## Testing status
-
-Experimental builds have been tested in PCSX2, including checks of the opening stage and selected menus and Library screens. Work is still ongoing, and **the translated game has not completed full end-to-end validation on real PS2 hardware / Open PS2 Loader (OPL)**. Some recent fixes still need to be included in a rebuilt image and rechecked in-game.
-
-Treat the current build output as development material, not as a final release.
-
-## Repository guide
-
-- [Detailed development status (Spanish)](docs/PROJECT_STATUS_ES.md) — preserved from the previous project README, including progress notes and issue references.
-The source code, build tools, translation data, and detailed working notes have not yet been migrated from the original private workspace. This repository currently holds the public-facing project documentation.
+- Translation, romhacking, tools and testing: the project maintainers.
+- Names and attack terminology follow the official *Super Robot Wars OG* English localizations and fan community references.
 
 ## Project scope and rights
 
-This is an unofficial, non-commercial fan translation project. It is not affiliated with or endorsed by Banpresto, Bandai Namco, or the original rights holders.
-
-The repository is a private development workspace. It does not announce a public release, and no original game disc image or console BIOS is provided. Use only game data obtained from a copy you are legally entitled to use. All trademarks and copyrighted material belong to their respective owners.
-
-
+This is an unofficial, non-commercial fan translation. It is not affiliated with or endorsed by Banpresto, Bandai Namco, or the original rights holders. No game disc image or console BIOS is provided; use only game data from a copy you are legally entitled to use. All trademarks and copyrighted material belong to their respective owners. The contents of this repository are licensed under the [GPL-3.0](LICENSE).
 
 <a href="https://www.buymeacoffee.com/Srwa_en" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
