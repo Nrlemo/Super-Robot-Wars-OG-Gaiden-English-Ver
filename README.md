@@ -7,6 +7,12 @@
 
 A work-in-progress English fan translation of **Super Robot Wars Original Generation: Gaiden** for the PlayStation 2.
 
+<p align="center">
+  <img src="screenshots/cover.png" width="720" alt="cover" title="cover">
+
+</p>
+
+
 The goal is to make the game easier to play in English while preserving its story, character voices, terminology, menus, and original presentation. This repository contains the translation work and the tools used to modify and test the game.
 
 > **Project status:** active development. English draft text exists across much of the game, but review and in-game testing are still ongoing. There is no finished public patch release yet.
