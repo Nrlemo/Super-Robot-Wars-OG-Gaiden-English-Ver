@@ -116,7 +116,7 @@ Helpful details: what screen you were on, a screenshot, the **MD5 of your patche
 
 ## How does it work?
 
-The original game stores text in several formats, and many labels live inside graphics. The project extracts everything into editable files, translates it in batches with a shared glossary, and fits it with a **variable-width font (VWF)** so English fits where Japanese characters had fixed cells. Tools validate every string against its box in pixels, rebuild the disc, and run automated emulator smoke tests. Details: [project status (Spanish)](docs/PROJECT_STATUS_ES.md).
+The original game stores text in several formats, and many labels live inside graphics. The project extracts everything into editable files, translates it in batches with a shared glossary, and fits it with a **variable-width font (VWF)** so English fits where Japanese characters had fixed cells. Tools validate every string against its box in pixels, rebuild the disc, and run automated emulator smoke tests. 
 
 ## Tools and sources
 
