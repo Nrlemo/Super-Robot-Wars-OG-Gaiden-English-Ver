@@ -8,8 +8,8 @@
 [![xdelta downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/RC01/SRWOGG_EN_RC01.xdelta?label=xdelta%20downloads&color=brightgreen&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/download/RC01/SRWOGG_EN_RC01.xdelta)
 [![Total downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/total?label=total%20downloads&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
 [![Open issues](https://img.shields.io/github/issues/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?label=issues&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues)
-[![License: GPL-3.0](https://img.shields.io/github/license/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver&cacheSeconds=300)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/commits/main)
+[![License: GPL-3.0](https://img.shields.io/github/license/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?cacheSeconds=300)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/commits/main)
 
 A complete English fan translation of **Super Robot Wars Original Generation: Gaiden** (*Super Robot Taisen OG Gaiden*, SLPS-25836) for the PlayStation 2.
 
