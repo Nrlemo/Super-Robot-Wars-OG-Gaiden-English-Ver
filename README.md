@@ -44,7 +44,7 @@ Grab your original Japanese ISO, follow the [installation steps](#installation) 
 
 RC02 is a polish pass on RC01, driven by tester screenshots (mostly layout and UI labels). Highlights:
 
-- **Dialogue text size unified to the UI size** (width/height 20, was 24/28 in RC01) in story dialogue, backlog and Library, and **lines now fill the dialogue box** instead of breaking early. 👉 **[Vote: which text size do you prefer?](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/discussions/1)**
+- **Dialogue text size unified to the UI size** (width/height 20, was 24/28 in RC01) in story dialogue, backlog and Library, and **lines now fill the dialogue box** instead of breaking early. 👉 **[Vote: which text size do you prefer?](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/discussions/2)**
 - Intermission: the stage line (`Stage ##`) no longer overlaps the number; **Select Weapon**, **Parts** and **Develop S.Ammo** screens fixed (clipped or overlapping labels, `Lnd/Sea/Spc` terrain letters glued to their values, popups).
 - `Save` vs `Quick Save` now match the context (*Quick Save* only in the map command menu).
 - Shuffle Battler: the green «EVADE» label is no longer cut off in combat.
