@@ -2,10 +2,10 @@
 
 ![Platform: PlayStation 2](https://img.shields.io/badge/platform-PlayStation%202-555555)
 ![Translation: Japanese to English](https://img.shields.io/badge/translation-Japanese%20%E2%86%92%20English-blue)
-![Status: RC01](https://img.shields.io/badge/status-RC01%20(release%20candidate)-yellow)
+![Status: RC02](https://img.shields.io/badge/status-RC02%20(release%20candidate)-yellow)
 ![Font: VWF](https://img.shields.io/badge/font-variable--width%20(VWF)-purple)
 [![Latest release](https://img.shields.io/github/v/release/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?include_prereleases&label=release&color=yellow&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
-[![xdelta downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/RC01/SRWOGG_EN_RC01.xdelta?label=xdelta%20downloads&color=brightgreen&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/download/RC01/SRWOGG_EN_RC01.xdelta)
+[![xdelta downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/RC02/SRWOGG_EN_RC02.xdelta?label=xdelta%20downloads&color=brightgreen&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/download/RC02/SRWOGG_EN_RC02.xdelta)
 [![Total downloads](https://img.shields.io/github/downloads/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/total?label=total%20downloads&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
 [![Open issues](https://img.shields.io/github/issues/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?label=issues&cacheSeconds=300)](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues)
 [![License: GPL-3.0](https://img.shields.io/github/license/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver?cacheSeconds=300)](LICENSE)
@@ -20,7 +20,7 @@ A complete English fan translation of **Super Robot Wars Original Generation: Ga
 
 The goal is to make the game fully playable in English while preserving its story, character voices, terminology, menus, and original presentation. Names and attacks follow the official English localizations of *SRW OG1/OG2* wherever they exist, and everything is checked against the Japanese original.
 
-**Download:** [RC01 pre-release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC01) · [All releases](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
+**Download:** [RC02 pre-release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC02) · [All releases](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases)
 
 ### We need your support! 💫
 
@@ -32,13 +32,29 @@ Grab your original Japanese ISO, follow the [installation steps](#installation) 
 
 <a href="https://www.buymeacoffee.com/Srwa_en" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-## Project status: RC01 (release candidate)
+## Project status: RC02 (release candidate)
 
 - ✅ **Everything is translated:** story script, battle quotes, database and Library, menus and system text, tutorial/help/Q&A, Shuffle Battler (cards, effects and messages), terrain and music labels, and the text baked into menu graphics and banners.
 - ✅ **Validated on the PCSX2 emulator and on Open PS2 Loader (OPL).**
 - ⏳ **Real PS2 hardware has not been tested yet.** Reports from physical consoles are very welcome.
-- 🔎 **What RC01 is for:** checking that **no untranslated Japanese remains** anywhere in the game (menus, graphics, rarely-seen screens).
+- 🔎 **What RC02 is for:** checking that **no untranslated Japanese remains** anywhere in the game (menus, graphics, rarely-seen screens).
 - 📝 **Still pending:** a complete proofreading pass over the script. It has only been partially validated, so expect the occasional awkward line or inconsistency.
+
+### What's new in RC02
+
+RC02 is a polish pass on RC01, driven by tester screenshots (mostly layout and UI labels). Highlights:
+
+- **Dialogue text size unified to the UI size** (width/height 20, was 24/28 in RC01) in story dialogue, backlog and Library, and **lines now fill the dialogue box** instead of breaking early. 👉 **[Vote: which text size do you prefer?](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/discussions/1)**
+- Intermission: the stage line (`Stage ##`) no longer overlaps the number; **Select Weapon**, **Parts** and **Develop S.Ammo** screens fixed (clipped or overlapping labels, `Lnd/Sea/Spc` terrain letters glued to their values, popups).
+- `Save` vs `Quick Save` now match the context (*Quick Save* only in the map command menu).
+- Shuffle Battler: the green «EVADE» label is no longer cut off in combat.
+- Full list: see the [changelog](CHANGELOG.md).
+
+| RC01 (width 24 / height 28) | RC02 (width 20 / height 20) |
+|---|---|
+| <img src="screenshots/comparison/dialogue-1-rc01.png" alt="RC01 dialogue 1"> | <img src="screenshots/comparison/dialogue-1-rc02.png" alt="RC02 dialogue 1"> |
+| <img src="screenshots/comparison/dialogue-2-rc01.png" alt="RC01 dialogue 2"> | <img src="screenshots/comparison/dialogue-2-rc02.png" alt="RC02 dialogue 2"> |
+| <img src="screenshots/comparison/dialogue-3-rc01.png" alt="RC01 dialogue 3"> | <img src="screenshots/comparison/dialogue-3-rc02.png" alt="RC02 dialogue 3"> |
 
 ## Screenshots
 
@@ -67,15 +83,22 @@ cb7dc4485f46f220c46095c966a3aad0
 
 **2. Download the patch**
 
-Download `SRWOGG_EN_RC01.xdelta` from the [RC01 release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC01).
+Go to the [RC02 release](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/releases/tag/RC02) and download:
+
+- `SRWOGG_EN_RC02.xdelta` — for the **original Japanese ISO** (what most people need), or
+- `SRWOGG_EN_RC01_to_RC02.xdelta` — only if you **already have the RC01 ISO** (`SRWOGG_EN_RC01.iso`) and want to upgrade it.
 
 **3. Apply the patch (xdelta)**
 
-- **Windows / any browser:** use [Delta Patcher](https://www.romhacking.net/utilities/704/), [xdelta UI](https://www.romhacking.net/utilities/598/) or [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). Choose the original ISO as the source file, `SRWOGG_EN_RC01.xdelta` as the patch, and save to a **new** file name.
+- **Windows / any browser:** use [Delta Patcher](https://www.romhacking.net/utilities/704/), [xdelta UI](https://www.romhacking.net/utilities/598/) or [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). Choose the source ISO (Japanese, or RC01 for the upgrade patch), the matching `.xdelta` as the patch, and save to a **new** file name.
 - **Linux / macOS (command line):**
 
 ```sh
-xdelta3 -d -s "Super Robot Taisen OG Gaiden (Japan, Korea).iso" SRWOGG_EN_RC01.xdelta SRWOGG_EN_RC01.iso
+# From the Japanese ISO
+xdelta3 -d -s "Super Robot Taisen OG Gaiden (Japan, Korea).iso" SRWOGG_EN_RC02.xdelta SRWOGG_EN_RC02.iso
+
+# Or from the RC01 ISO
+xdelta3 -d -s SRWOGG_EN_RC01.iso SRWOGG_EN_RC01_to_RC02.xdelta SRWOGG_EN_RC02.iso
 ```
 
 Your original ISO is never modified.
@@ -85,12 +108,20 @@ Your original ISO is never modified.
 The patched ISO must have this MD5 (if not, the base ISO is not the expected dump):
 
 ```
-7e834ed083969bc379b43cc2a57714d8
+3cedfb6057e690514fe03fee8823614e
 ```
+
+| File | MD5 |
+|---|---|
+| Base: *Super Robot Taisen OG Gaiden (Japan, Korea)* ISO | `cb7dc4485f46f220c46095c966a3aad0` |
+| RC01 ISO (only for the upgrade patch) | `7e834ed083969bc379b43cc2a57714d8` |
+| **RC02 ISO (result)** | `3cedfb6057e690514fe03fee8823614e` |
+| `SRWOGG_EN_RC02.xdelta` (2,670,184 B) | `9dc04aeb897e8c6244d514122671c576` |
+| `SRWOGG_EN_RC01_to_RC02.xdelta` (76,169 B) | `bb17a616d1b04b98145dfbac17d3400d` |
 
 **5. Play**
 
-- **PCSX2:** boot `SRWOGG_EN_RC01.iso` directly.
+- **PCSX2:** boot `SRWOGG_EN_RC02.iso` directly.
 - **Open PS2 Loader (OPL):** copy the ISO to the `DVD` folder of your drive/USB/SMB share (rename it as OPL expects, e.g. `SLPS_258.36.Super Robot Taisen OG Gaiden.iso`).
 - **Real disc:** burn the ISO as a PS2 DVD-ROM image.
 
@@ -98,7 +129,9 @@ The patched ISO must have this MD5 (if not, the base ISO is not the expected dum
 
 ## Known issues
 
-- **#84 — Unit Stats:** the *HP* and *EN* labels appear twice (a text label plus the game's own sprite). Cosmetic; the Japanese game also draws both.
+- **#84 — Unit Stats:** the *HP* and *EN* labels appear twice (a text label plus the game's own sprite). This is original game behaviour (the Japanese game also draws both); won't fix.
+- **#129 — Develop S.Ammo:** the title «Special Ammo» sits slightly off-centre in its title plate on some screens. Cosmetic.
+- Intermission dialogue lines stop around 410 px of a ~570 px box (RC02 uses the same line width as the map dialogue). Cosmetic; depends on the text-size vote below.
 
 Found something else? Please [open an issue](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/issues) with a screenshot.
 
@@ -112,7 +145,7 @@ Helpful details: what screen you were on, a screenshot, the **MD5 of your patche
 
 **Can I use the patch on a CD/other region?** No — the patch is made for that exact ISO.
 
-**Is the translation final?** No. This is RC01: complete, but the script still needs a full proofreading pass.
+**Is the translation final?** No. This is RC02: complete, but the script still needs a full proofreading pass.
 
 ## How does it work?
 
