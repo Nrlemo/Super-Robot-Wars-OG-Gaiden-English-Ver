@@ -5,7 +5,7 @@
 Polish pass on RC01 based on tester screenshots.
 
 **Dialogue**
-- Dialogue, backlog and Library text size unified to the UI size (width/height **20**; RC01 used 24/28 for dialogue). See the [text-size discussion](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/discussions/1).
+- Dialogue, backlog and Library text size unified to the UI size (width/height **20**; RC01 used 24/28 for dialogue). See the [text-size discussion](https://github.com/Nrlemo/Super-Robot-Wars-OG-Gaiden-English-Ver/discussions/2).
 - New line-breaking: lines now fill the dialogue box (~410 px, up to the box edge when needed) instead of breaking early. Original breaks are kept after `...`, `!`, `?!` and sentence-ending `.`; proper names are not split across lines; one-word last lines are avoided.
 
 **Intermission and menus**
